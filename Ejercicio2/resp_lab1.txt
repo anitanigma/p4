@@ -1,0 +1,11 @@
+1. ¿Cuáles son las dependencias circulares que fueron necesarias solucionar para que el programa compile?
+	Entre las clases A y B, B y C y C y A tienen dependencias bidireccionales, eso quiere decir que una depende 
+	de la otra y la segunda de la primera.
+	Por otro lado hay una dependencia cirular entre A,B y C que tambien debe ser solucionado para que el 
+	programa compile.
+	
+2. ¿Qué es forward declaration? 
+	Se le llama forward declaretion a una forma de "avisarle" al compilador que existe una clase o estructura aunque 
+	aún no esté definida/declarada. Con esta herramienta se pueden declarar variables punteros a clases antes de 
+	saber su definicion sin errores de compilacion. Se hace nombrando a la clase que se va a utilizar mas adelante en 
+	la definición de la otra.
